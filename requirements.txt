@@ -1,0 +1,9 @@
+# This tells pip to look in both the standard library AND the torch repo
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+fastapi==0.103.0
+requests==2.31.0
+uvicorn[standard]==0.23.0
+sentencepiece==0.1.99
+torch==2.1.2
+transformers==4.36.0
